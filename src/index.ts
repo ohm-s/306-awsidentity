@@ -1,4 +1,5 @@
 import BoltLogger from '306-boltlogger';
+import fetch from 'cross-fetch';
 
 export interface AwsIdentityDocument {
   accountId: string;
